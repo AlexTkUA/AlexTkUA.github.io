@@ -1,0 +1,19 @@
+@mixin require-title {
+    font-family: 'Roboto';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+@mixin require-list {
+    color: #222;
+    font-family: 'Roboto';
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 300;
+}
+@mixin btn-hover {
+    &:hover {
+        background: linear-gradient(0deg, #19889e 0%, #4CE2FF 100%);
+    }
+}
